@@ -1,0 +1,14 @@
+<a style="cursor: pointer" class="list-group-item clearfix"
+[routerLink]=[index]
+routerLinkActive="active"
+>
+  <div class="row">
+<div class="col-8">
+  <h4>{{ recipe.name }}</h4>
+<p>{{ recipe.description }}</p>
+</div>
+<div class="col-4">
+  <img class="mg-fluid" [src]="recipe.imagePath" alt="" style="max-height: 55px">
+</div>
+</div>
+</a>
